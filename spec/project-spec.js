@@ -1,4 +1,4 @@
-import { UserBirth, getAge } from './../src/backend-code.js';
+import { UserBirth } from './../src/backend-code';
 
 describe('age-calc', function() {
 
@@ -12,7 +12,8 @@ describe('age-calc', function() {
 
   it('should calculate the age', function() {
     let inputDate = new Date (2009, 6, 27);
-    expect(inputDate.getAge.toEqual(10);
+    let user = new UserBirth (date);
+    expect(inputDate.getAge()).toEqual(10);
   });
 
-});
+});  
