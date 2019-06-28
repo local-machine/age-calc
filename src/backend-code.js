@@ -5,15 +5,15 @@ export class UserBirth extends Date {
     this.month = month;
     this.date = date;
   }
-
-  const getAge = function(dateString) {
-    var today = new Date();
-    var birthDate = new Date(dateString);
-    var age = today.getFullYear() - birthDate.getFullYear();
-    var month = today.getMonth() - birthDate.getMonth();
-    if (month < 0 || (month === 0 && today.getDate() < birthDate.getDate())) {
-      age--;
-    }
-    return age;
-  };
 }
+
+// export let getAge = new Date (dateString) {
+//   let today = new Date();
+//   const UserBirth = new Date(dateString);
+//   let age = today.getFullYear() - UserBirth.getFullYear();
+//   var month = today.getMonth() - UserBirth.getMonth();
+//   if (month < 0 || (month === 0 && today.getDate() < UserBirth.getDate())) {
+//     age--;
+//   }
+//   return age;
+// };
