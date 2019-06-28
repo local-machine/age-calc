@@ -17,7 +17,7 @@ module.exports = {
     new UglifyJsPlugin({ sourceMap: true }),
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      title: 'Project Name',      // CHANGE THIS
+      title: 'age-calc',      // CHANGE THIS
       template: './src/index.html',
       inject: 'body'
     })
