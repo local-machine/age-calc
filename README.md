@@ -1,22 +1,29 @@
-# Bagheera's Pizzeria
+# Space Age Calculator
 
-#### _A web site for ordering pizza - June 21, 2019_
+#### _Simple webpage to calculate the age of an individual on multiple planets. - June 28, 2019_
 
-#### _By **Na Hyung Choi**_
+#### _By **Jessica Munoz**_
 
 ## Description
 
-On this web site, the user can choose toppings, crust, and a size for one or more pizzas, see the details of the order and the final cost, and "place an order."
+On this web site, the user will submit their age and see how old they would be on other planets.
 
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **Creates a new pizza through a constructor** | var pizza1 = new Pizza ("large", ["cheese", "sausage"]) | pizza1 = { size : "large", toppings: ["cheese", "sausage"], cost: undefined} |
+| **User submits age and sees how old they are on Mercury** | 10 | 41 |
+| **User submits age and sees how old they are on Venus** | 10 | 16 |
+| **User submits age and sees how old they are on Mars** | 10 | 5 |
+| **User submits age and sees how old they are on Jupiter** | 10 | 0 |
+| **User submits age and sees how many years they have left before average life expectancy expires** | 10 | 61 |
+| **User submits age, if user has surpassed the average life expectancy, they see the number of years they have lived past life expectancy.** | 80 | 9 |
 
 ## Setup/Installation Requirements
 
-* Clone this repository and open the .html file.
-* OR go directly to the [Web page](http://schoinh.github.io/pizza)
+* Clone this repository
+* In Terminal, enter the command: $ npm install
+* In Terminal, enter the command: $ npm run build
+* OR go directly to the [Web page](https://local-machine.github.io/age-calc)
 
 ## Known Bugs
 * No known bugs at this time.
@@ -25,13 +32,19 @@ On this web site, the user can choose toppings, crust, and a size for one or mor
 * JavaScript
 * jQuery
 * Bootstrap
+* npm
+* webpack
+* node.js
+* Jasmine with Karma
+* Babel
+* ESLint
 
 ## Support and contact details
 
-_Please contact Na Hyung with questions and comments._
+_Please contact Jessica Munoz with questions and comments._
 
 ### License
 
 *GNU GPLv3*
 
-Copyright (c) 2019 **_Na Hyung Choi_**
+Copyright (c) 2019 **_Jessica Munoz_**
