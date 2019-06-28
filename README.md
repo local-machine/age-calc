@@ -16,7 +16,7 @@ On this web site, the user will submit their age and see how old they would be o
 | **User submits age and sees how old they are on Mars** | 10 | 5 |
 | **User submits age and sees how old they are on Jupiter** | 10 | 0 |
 | **User submits age and sees how many years they have left before average life expectancy expires** | 10 | 61 |
-| **User submits age, if user has surpassed the average life expectancy, they see the number of years they have lived past life expectancy.** | 80 | 9 |
+| **User submits age, if user has surpassed the average life expectancy, they see the number of years they have lived past life expectancy** | 80 | 9 |
 
 ## Setup/Installation Requirements
 

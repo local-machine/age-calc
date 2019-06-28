@@ -1,11 +1,13 @@
-// import { XXX } from './../src/backend-code.js';
-//
-// describe('XXX', function() {
-//
-//   it('should ...', function() {
-//     expect(triangle.side1).toEqual(3);
-//     expect(triangle.side2).toEqual(4);
-//     expect(triangle.side3).not.toEqual(6);
-//   });
-// 
-// })
+import { XXX } from './../src/backend-code.js';
+
+describe('age-calc', function() {
+
+  it('should save a date as a Date object', function() {
+    const inputDate = new Date (2009, 06, 27);
+    expect(inputDate.getFullYear()).toEqual(2009);
+    expect(inputDate.getMonth()).toEqual(5);
+    expect(inputDate.getDate()).toEqual(27);
+  });
+
+
+})
