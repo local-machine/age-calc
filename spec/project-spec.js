@@ -22,4 +22,22 @@ describe('age-calc', function() {
   it('should calculate the age on Venus', function() {
     expect(astronaut.venusAge()).toEqual(16);
   });
+
+  it('should calculate the age on Mars', function() {
+    expect(astronaut.marsAge()).toEqual(5);
+  });
+
+  it('should calculate the age on Jupiter', function() {
+    expect(astronaut.jupiterAge()).toEqual(0);
+  });
+
+  it('should calculate the number of years before user meets average life expectancy', function() {
+    expect(astronaut.yearsLeft()).toEqual(61)
+  });
+
+  it('should calculate the number of years past average life expectancy', function() {
+    let birthdate = new Date (1939, 6, 27);
+    let astronaut = new Astronaut (birthdate);
+    expect(astronaut.yearsPast()).toEqual(9);
+  });
 });
