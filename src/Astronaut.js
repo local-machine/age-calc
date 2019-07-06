@@ -8,29 +8,38 @@ export class Astronaut {
     if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
         age--;
     }
-    this.earthAge = age;
+    this.age = age;
   }
 
   mercuryAge() {
-    return Math.floor(this.earthAge / 0.24);
+    return Math.floor(this.age / 0.24);
   }
+
   venusAge() {
-    return Math.floor(this.earthAge / 0.62);
+    return Math.floor(this.age / 0.62);
   }
+
+  earthAge() {
+    return this.age;
+  }
+
   marsAge() {
-    return Math.floor(this.earthAge / 1.88);
+    return Math.floor(this.age / 1.88);
   }
+
   jupiterAge() {
-    return Math.floor(this.earthAge / 11.86);
+    return Math.floor(this.age / 11.86);
   }
+
   yearsLeft() {
-    if (this.earthAge <= 71) {
-      return (71 - this.earthAge);
+    if (this.age <= 71) {
+      return (71 - this.age);
     }
   }
+
   yearsPast() {
-    if (this.earthAge > 71) {
-      return (this.earthAge - 71);
+    if (this.age > 71) {
+      return (this.age - 71);
     }
   }
 }

@@ -11,8 +11,8 @@ describe('age-calc', function() {
     expect(birthdate.getDate()).toEqual(27);
   });
 
-  it('should calculate the age on Earth', function() {
-    expect(astronaut.earthAge).toEqual(10);
+  it('should calculate the age', function() {
+    expect(astronaut.age).toEqual(10);
   });
 
   it('should calculate the age on Mercury', function() {
@@ -21,6 +21,10 @@ describe('age-calc', function() {
 
   it('should calculate the age on Venus', function() {
     expect(astronaut.venusAge()).toEqual(16);
+  });
+
+  it('should calculate the age on Earth', function() {
+    expect(astronaut.earthAge()).toEqual(10);
   });
 
   it('should calculate the age on Mars', function() {

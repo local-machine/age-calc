@@ -1,9 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Project Name</title>
+    <title>Super Galactic Age Calculator</title>
   </head>
   <body>
-
+    <div class="container">
+      <h2>Super Galactic Age Calculator</h2>
+      <br>
+      <form id="make-date">
+        <p>Enter your date of birth to determine your Milky Way ages: </p>
+        <input id="date" type="date">
+        <button type="submit" class="btn btn-primary">Get Ages</button>
+      </form>
+      <div>
+        <h2>Age on planets:</h2>
+        <ul>
+          <li>Mercury: <span id="mercuryAge"></span></li>
+          <li>Venus: <span id="venusAge"></span></li>
+          <li>Earth: <span id="earthAge"></span></li>
+          <li>Mars: <span id="marsAge"></span></li>
+        </ul>
+        <h2>How many years you have on Earth:</h2>
+        <ul>
+          <li>Number of years before expiration: <span id="yearsLeft"></span></li>
+          <li>Number of years past expiration: <span id="yearsPast"></span></li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
