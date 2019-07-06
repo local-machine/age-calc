@@ -23,7 +23,6 @@ On this web site, the user will submit their age and see how old they would be o
 * Clone this repository
 * In Terminal, enter the command: $ npm install
 * In Terminal, enter the command: $ npm run build
-* OR go directly to the [Web page](https://local-machine.github.io/age-calc)
 
 ## Known Bugs
 * No known bugs at this time.
